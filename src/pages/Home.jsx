@@ -24,37 +24,19 @@ function Home() {
       </section>
 
       <section className="streaming-section">
-        <h2 className="section-title">Escucha Nuestra Música</h2>
+        <h2 className="section-title">Escuchanos Aquí</h2>
         <div className="streaming-links">
-          <a href="https://open.spotify.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://open.spotify.com/artist/1pc5TUhLc53OU3XAqvrIgr" target="_blank" rel="noopener noreferrer" className="streaming-link">
             Spotify
           </a>
-          <a href="https://music.apple.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://music.apple.com/us/artist/dambros/1852086859" target="_blank" rel="noopener noreferrer" className="streaming-link">
             Apple Music
           </a>
-          <a href="https://tidal.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://tidal.com/artist/69662958" target="_blank" rel="noopener noreferrer" className="streaming-link">
             Tidal
           </a>
-          <a href="https://music.youtube.com/channel/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://music.youtube.com/channel/UC2IV3rQiSu0Un47P78-E-EQ" target="_blank" rel="noopener noreferrer" className="streaming-link">
             YouTube Music
-          </a>
-          <a href="https://music.amazon.com/artists/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
-            Amazon Music
-          </a>
-          <a href="https://soundcloud.com/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
-            SoundCloud
-          </a>
-          <a href="https://dambros.bandcamp.com" target="_blank" rel="noopener noreferrer" className="streaming-link">
-            Bandcamp
-          </a>
-          <a href="https://www.deezer.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
-            Deezer
-          </a>
-          <a href="https://www.pandora.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
-            Pandora
-          </a>
-          <a href="https://www.iheart.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
-            iHeartRadio
           </a>
         </div>
       </section>
