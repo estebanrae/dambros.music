@@ -55,12 +55,12 @@ function Home() {
         <h2 className="section-title">Acerca de nosotros</h2>
         <div className="about-content">
           <p>
-            Somos Roy y Esteban. Llevamos haciendo música juntos desde los 15 años, pero en los últimos 2 años nos hemos 
+            Somos Steve y Roy. Llevamos haciendo música juntos desde los 15 años, pero en los últimos 2 años nos hemos 
             dedicado a escribir y crear este proyecto con más intención.
           </p>
           <p>
             La historia comenzó en 2009, cuando nos conocimos en una clase de música. Roy era el pianista 
-            estrella y Esteban el nuevo estudiante. Cuando empezamos a tocar juntos, la química fue inmediata. En prepa
+            estrella y Steve el nuevo estudiante. Cuando empezamos a tocar juntos, la química fue inmediata. En prepa
             nos dedicabamos a tocar covers de John Mayer, Red Hot Chili Peppers, y pop en español. Siempre hemos tenido
             un gusto muy variado entre rock, pop y música en español. En 2019, nos mudamos juntos a una casa en CDMX, 
             donde nos pegó la pandemia y empezamos a escribir como locos. Ninguno de los dos nos consideramos buenos
@@ -68,7 +68,7 @@ function Home() {
           </p>
 
           <p>
-            En esa casa en Galeana, fue que Esteban escribió "Sigo Aquí", inspirado por la distancia que lo separaba de su novia.
+            En esa casa en la calle de Ámsterdam, fue que Steve escribió "Sigo Aquí", inspirado por la distancia que lo separaba de su novia.
             Después de eso, salieron muchas ideas y aprendizajes sobre la música y la vida.
           </p>
 
