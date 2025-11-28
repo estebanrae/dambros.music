@@ -1,0 +1,152 @@
+.stream-page {
+  min-height: 100vh;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stream-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.back-link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.back-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.band-name {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Brush Script MT', cursive;
+  color: #000;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.page-title {
+  font-size: 1.8rem;
+  color: #333;
+  font-style: italic;
+}
+
+.platforms-section,
+.social-section {
+  margin-bottom: 4rem;
+}
+
+.platforms-section h2,
+.social-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.platforms-grid,
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.platform-btn,
+.social-btn {
+  background: #fff;
+  border: 2px solid var(--platform-color, #000);
+  border-color: var(--platform-color, var(--social-color, #000));
+  color: #000;
+  padding: 2rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.platform-btn:hover,
+.social-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  background: var(--platform-color, var(--social-color, #f0f0f0));
+  background: rgba(var(--platform-color-rgb, var(--social-color-rgb, 0,0,0)), 0.1);
+}
+
+.social-btn:hover {
+  background: rgba(var(--social-color-rgb, 0,0,0), 0.1);
+}
+
+.platform-icon,
+.social-icon {
+  font-size: 3rem;
+}
+
+.platform-name,
+.social-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.stream-footer {
+  text-align: center;
+  padding: 3rem 0;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .band-name {
+    font-size: 2.5rem;
+  }
+
+  .stream-header {
+    margin-bottom: 2rem;
+  }
+
+  .back-link {
+    position: static;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .platforms-grid,
+  .social-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .platform-btn,
+  .social-btn {
+    padding: 1.5rem;
+  }
+
+  .platform-icon,
+  .social-icon {
+    font-size: 2rem;
+  }
+
+  .stream-page {
+    padding: 1rem;
+  }
+}
+

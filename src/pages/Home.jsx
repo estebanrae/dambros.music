@@ -1,0 +1,104 @@
+import React from 'react'
+import { imageFiles } from '../utils/imageList'
+import '../styles/Home.css'
+
+function Home() {
+  // Generate image paths from the auto-generated list
+  const galleryImages = imageFiles.map(filename => `/images/gallery/${filename}`)
+
+  return (
+    <div className="home">
+      <header className="hero">
+        <h1 className="band-name">dambros</h1>
+      </header>
+
+      <section className="latest-release">
+        <div className="release-image-container">
+          <div className="release-badge">Último Lanzamiento</div>
+          <img 
+            src="/images/main.jpg" 
+            alt="Último lanzamiento dambros" 
+            className="release-image"
+          />
+        </div>
+      </section>
+
+      <section className="streaming-section">
+        <h2 className="section-title">Escucha Nuestra Música</h2>
+        <div className="streaming-links">
+          <a href="https://open.spotify.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            Spotify
+          </a>
+          <a href="https://music.apple.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            Apple Music
+          </a>
+          <a href="https://tidal.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            Tidal
+          </a>
+          <a href="https://music.youtube.com/channel/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            YouTube Music
+          </a>
+          <a href="https://music.amazon.com/artists/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            Amazon Music
+          </a>
+          <a href="https://soundcloud.com/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            SoundCloud
+          </a>
+          <a href="https://dambros.bandcamp.com" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            Bandcamp
+          </a>
+          <a href="https://www.deezer.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            Deezer
+          </a>
+          <a href="https://www.pandora.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            Pandora
+          </a>
+          <a href="https://www.iheart.com/artist/dambros" target="_blank" rel="noopener noreferrer" className="streaming-link">
+            iHeartRadio
+          </a>
+        </div>
+      </section>
+
+      <section className="gallery-section">
+        <div className="gallery">
+          {galleryImages.map((imageSrc, index) => (
+            <div key={index} className="gallery-item">
+              <img src={imageSrc} alt="dambros" className="gallery-image" />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="about-section">
+        <h2 className="section-title">Acerca de nosotros</h2>
+        <div className="about-content">
+          <p>
+            Somos Roy y Esteban. Llevamos haciendo música juntos desde los 15 años, pero en los últimos 2 años nos hemos 
+            dedicado a escribir y crear este proyecto con más intención.
+          </p>
+          <p>
+            La historia comenzó en 2009, cuando nos conocimos en una clase de música. Roy era el pianista 
+            estrella y Esteban el nuevo estudiante. Cuando empezamos a tocar juntos, la química fue inmediata. En prepa
+            nos dedicabamos a tocar covers de John Mayer, Red Hot Chili Peppers, y pop en español. Siempre hemos tenido
+            un gusto muy variado entre rock, pop y música en español. En 2019, nos mudamos juntos a una casa en CDMX, 
+            donde nos pegó la pandemia y empezamos a escribir como locos. Ninguno de los dos nos consideramos buenos
+            cantantes, pero si Bob Dylan, Joaquín Sabina y C Tangana pueden hacerlo, nosotros también. 
+          </p>
+
+          <p>
+            En esa casa en Galeana, fue que Esteban escribió "Sigo Aquí", inspirado por la distancia que lo separaba de su novia.
+            Después de eso, salieron muchas ideas y aprendizajes sobre la música y la vida.
+          </p>
+
+        </div>
+      </section>
+
+      <footer className="footer">
+        <p>&copy; {new Date().getFullYear()} dambros. Todos los derechos reservados.</p>
+      </footer>
+    </div>
+  )
+}
+
+export default Home
+
