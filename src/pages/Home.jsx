@@ -55,22 +55,21 @@ function Home() {
         <h2 className="section-title">Acerca de nosotros</h2>
         <div className="about-content">
           <p>
-            Somos Steve y Roy. Llevamos haciendo música juntos desde los 15 años, pero en los últimos 2 años nos hemos 
-            dedicado a escribir y crear este proyecto con más intención.
+          Somos Stevie y Roy. Llevamos haciendo música juntos desde los 15 años, pero en los últimos 2 años nos hemos dedicado a escribir y crear este proyecto llamado Dambros con mayor intención.
           </p>
           <p>
-            La historia comenzó en 2009, cuando nos conocimos en una clase de música. Roy era el pianista 
-            estrella y Steve el nuevo estudiante. Cuando empezamos a tocar juntos, la química fue inmediata. En prepa
-            nos dedicabamos a tocar covers de John Mayer, Red Hot Chili Peppers, y pop en español. Siempre hemos tenido
-            un gusto muy variado entre rock, pop y música en español. En 2019, nos mudamos juntos a una casa en CDMX, 
-            donde nos pegó la pandemia y empezamos a escribir como locos. Ninguno de los dos nos consideramos buenos
-            cantantes, pero si Bob Dylan, Joaquín Sabina y C Tangana pueden hacerlo, nosotros también. 
+          La historia comenzó en 2010, cuando nos conocimos en una clase de música. Roy era el pianista estrella y Esteban el nuevo estudiante. Empezamos a tocar juntos y la química fue inmediata. En prepa nos dedicábamos a tocar covers de John Mayer, Red Hot Chili Peppers, Jorge Drexler, entre otros. Siempre hemos tenido un gusto muy variado entre rock, pop y cosas medio indies.
+          </p>
+          <p>
+          En 2019, nos mudamos juntos a una casa en CDMX, donde nos pegó la pandemia y empezamos a escribir como locos. Ninguno de los dos nos consideramos tan buenos cantantes, pero si Bob Dylan, C Tangana y Rubén Albarán pueden hacerlo, nosotros también.
+
           </p>
 
           <p>
-            En esa casa en la calle de Ámsterdam, fue que Steve escribió "Sigo Aquí", inspirado por la distancia que lo separaba de su novia.
-            Después de eso, salieron muchas ideas y aprendizajes sobre la música y la vida.
+          En esa casa en la calle de Amsterdam, nació "Sigo Aquí" como nuestro primer single, inspirado por la distancia que separaba a Esteban de su novia. De ahí en adelante surgieron “jams”, ideas y muchos aprendizajes sobre la música y la vida.
           </p>
+
+          <p>Hoy Dambros es el resultado de todo ello.</p>
 
         </div>
       </section>
