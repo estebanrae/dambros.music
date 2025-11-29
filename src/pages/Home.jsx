@@ -13,6 +13,7 @@ function Home() {
       </header>
 
       <section className="latest-release">
+      <a href="https://open.spotify.com/album/2MgLfnmbZO1iwsUcLD2hmn?si=11FPAqJzQvuOFSomLBbylg" target="_blank" rel="noopener noreferrer" >
         <div className="release-image-container">
           <div className="release-badge">Último Lanzamiento</div>
           <img 
@@ -21,25 +22,27 @@ function Home() {
             className="release-image"
           />
         </div>
+        </a>
       </section>
-
       <section className="streaming-section">
         <h2 className="section-title">Escuchanos Aquí</h2>
         <div className="streaming-links">
-          <a href="https://open.spotify.com/artist/1pc5TUhLc53OU3XAqvrIgr" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://open.spotify.com/album/2MgLfnmbZO1iwsUcLD2hmn?si=11FPAqJzQvuOFSomLBbylg" target="_blank" rel="noopener noreferrer" className="streaming-link">
             Spotify
           </a>
-          <a href="https://music.apple.com/us/artist/dambros/1852086859" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://music.apple.com/co/album/te-voy-a-amar-single/1852087974" target="_blank" rel="noopener noreferrer" className="streaming-link">
             Apple Music
           </a>
-          <a href="https://tidal.com/artist/69662958" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://tidal.com/album/473048274/u" target="_blank" rel="noopener noreferrer" className="streaming-link">
             Tidal
           </a>
-          <a href="https://music.youtube.com/channel/UC2IV3rQiSu0Un47P78-E-EQ" target="_blank" rel="noopener noreferrer" className="streaming-link">
+          <a href="https://music.youtube.com/playlist?list=OLAK5uy_nMBVNiJjL0cBi9eyS6uQoXV5VpE_FwTMY&si=E7IgVXQJYxKmhBSa" target="_blank" rel="noopener noreferrer" className="streaming-link">
             YouTube Music
           </a>
         </div>
       </section>
+
+      
 
       <section className="gallery-section">
         <div className="gallery">
@@ -60,6 +63,8 @@ function Home() {
           </p>
           <p>
           La historia comenzó en 2010, cuando nos conocimos en una clase de música. Roy era el pianista estrella y Steve, el nuevo estudiante. Empezamos a tocar juntos y la química fue inmediata. En la prepa nos dedicábamos a tocar covers de John Mayer, Red Hot Chili Peppers, Jorge Drexler, entre otros. Siempre hemos tenido un gusto muy variado entre rock, pop y cosas medio indies.
+
+          </p>
 
           <p>
           En 2019 nos mudamos juntos a una casa en CDMX, donde nos pegó la pandemia y empezamos a escribir como locos. Ninguno de los dos nos consideramos tan buenos cantantes, pero si Bob Dylan, C. Tangana y Rubén Albarrán pueden hacerlo, nosotros también.
